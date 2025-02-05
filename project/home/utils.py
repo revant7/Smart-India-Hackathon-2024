@@ -21,7 +21,7 @@ def send_otp_email(email, otp_code):
 
 
 def generate_content(prompt_text):
-    api_key = "AIzaSyDayOQRavI4uxYYtKw_j1AuL90PPGI9U2A"
+    api_key = "AIzaSyDIQ8OEYSD3yt8802kxZXhOPRNcBPSmtIc"
     url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent'
     headers = {
         'Content-Type': 'application/json',
